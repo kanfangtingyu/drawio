@@ -18,7 +18,7 @@ GitLabClient.prototype.clientId = DRAWIO_GITLAB_ID;
 /**
  * OAuth scope.
  */
-GitLabClient.prototype.scope = 'api%20read_repository%20write_repository';
+GitLabClient.prototype.scope = 'api%20read_repository';
 
 /**
  * Base URL for API calls.
